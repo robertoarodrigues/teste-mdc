@@ -26,8 +26,3 @@ Saída esperada:
 33  
 90  
 
-## Instruções adicionais
-- Clone o repositório na máquina local;  
-- Crie uma nova branch com no formato "test/<seunome>";
-- Implemente o algoritimo no programa;  
-- Crie uma PR para a nova branch.  
