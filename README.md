@@ -2,17 +2,17 @@
 
 Leia atentamente as instruções e escreva um programa para calcular o MDC de dois números positivos A e B.  
 A saída do console deverá apresentar os números esperados.   
-Boas práticas também serão avaliadas. :)
+Boas práticas também serão avaliadas. :smiley:
 
 O algoritmo para calcular o MDC de dois números positivos A e B consiste em:
 - Identificar o menor número entre A e B, supondo que B < A.
 - Se B é igual a zero. então o MDC é igual a A.
 - Caso contrário o MDC entre A e B será o mesmo que o MDC de B e (A % B), onde (A % B) representa o resto de A quando dividido por B. Para calcular o MDC de B e (A % B) podemos aplicar o mesmo método.
 
-## Entrada:
+### Entrada:
 Cada uma das linhas irá conter dois números positivos A e B separados por um espaço.
 
-## Saída:
+### Saída:
 Para cada linha que contém os dois números inteiros A e B, imprima o MDC de A e B. 
 Saída esperada:  
 1    
@@ -25,3 +25,9 @@ Saída esperada:
 11  
 33  
 90  
+
+## Instruções adicionais
+- Clone o repositório na máquina local;  
+- Crie uma nova branch com no formato "test/<seunome>";
+- Implemente o algoritimo no programa;  
+- Crie uma PR para a nova branch.  
