@@ -1,6 +1,8 @@
 # MDC - Maior Divisor Comum
 
-Leia atentamente as instruções e escreva um programa para calcular o MDC de dois números positivos A e B. 
+Leia atentamente as instruções e escreva um programa para calcular o MDC de dois números positivos A e B.  
+A saída do console deverá apresentar os números esperados.   
+Boas práticas também serão avaliadas. :)
 
 O algoritmo para calcular o MDC de dois números positivos A e B consiste em:
 - Identificar o menor número entre A e B, supondo que B < A.
