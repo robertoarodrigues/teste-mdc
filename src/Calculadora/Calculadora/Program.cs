@@ -13,7 +13,8 @@ public class Program
         O algoritmo para calcular o MDC de dois números positivos A e B consiste em:
         - Identificar o menor número entre A e B, supondo que B < A.
         - Se B é igual a zero, então o MDC é igual a A.
-        - Caso contrário o MDC entre A e B será o mesmo que o MDC de B e (A % B), onde (A % B) representa o resto de A quando dividido por B. Para calcular o MDC de B e (A % B) podemos aplicar o mesmo método.
+        - Caso contrário o MDC entre A e B será o mesmo que o MDC de B e (A % B), onde (A % B) representa o resto de A quando dividido por B. 
+          Para calcular o MDC de B e (A % B) podemos aplicar o mesmo método.
 
         *****/
 
@@ -47,6 +48,23 @@ public class Program
 
     public static string Process(string input)
     {
-        // Vamos começar!
+        string[] arrayValores = input.Split(" ");
+
+        if(arrayValores.Length == 2)
+        {
+            int a = Convert.ToInt32(arrayValores[0]);
+            int b = Convert.ToInt32(arrayValores[1]);
+
+            while(b != 0)
+            {
+                int r = a % b;
+                a = b;
+                b = r;
+            }
+
+            return a.ToString();
+        }
+
+        return string.Empty;
     }
 }
